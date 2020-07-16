@@ -1,0 +1,29 @@
+{
+  "name": "serverless-website",
+  "version": "1.0.0",
+  "description": "Creating a serverless website",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CRSpradlin/serverless-website.git"
+  },
+  "keywords": [
+    "serverless",
+    "aws",
+    "terraform"
+  ],
+  "author": "crspradlin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CRSpradlin/serverless-website/issues"
+  },
+  "homepage": "https://github.com/CRSpradlin/serverless-website#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "jest": "^26.1.0"
+  }
+}
