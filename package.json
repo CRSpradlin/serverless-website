@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "deploy": "npm run zip",
+    "deploy": "npm run clean && npm run zip",
     "zip": "npm run zip-router",
-    "zip-router": "7z a ./terraform/deploy/router.zip ./src/lambda/router.js"
+    "clean": "rm -r ./terraform/deploy/*.zip",
+    "zip-router": "7z a -ai ./terraform/deploy/router.zip ./src/lambda/router.js"
   },
   "repository": {
     "type": "git",
