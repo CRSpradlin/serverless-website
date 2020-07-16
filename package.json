@@ -4,7 +4,10 @@
   "description": "Creating a serverless website",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "deploy": "npm run zip",
+    "zip": "npm run zip-router",
+    "zip-router": "7z a ./terraform/deploy/router.zip ./src/lambda/router.js"
   },
   "repository": {
     "type": "git",
